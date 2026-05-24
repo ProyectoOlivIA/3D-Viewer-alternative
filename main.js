@@ -79,7 +79,7 @@ function loadModel() {
   const loader = new GLTFLoader();
 
   // NOTA: Asegúrate de mantener el archivo con este nombre exacto en el mismo directorio
-  loader.load('buggy despiezado.glb', (gltf) => {
+  loader.load('buggydespiezado.glb', (gltf) => {
 
     vehicle = gltf.scene;
     scene.add(vehicle);
